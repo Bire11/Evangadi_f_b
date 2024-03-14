@@ -2,10 +2,16 @@ const mysql2 = require("mysql2");
 require('dotenv').config(); // Load environment variables from .env file
 const dbConnection = mysql2.createPool({
  
-   user:"final_admin", 
-    database:"final_db",
+  //  user:"final_admin", 
+  //   database:"final_db",
+  //   host:"localhost",
+  //   password:"A123456789a", 
+  //   connectionLimit: "10"
+
+  user:process.env.USER, 
+    database:process.env.DATABASE,
     host:"localhost",
-    password:"A123456789a", 
+    password:process.env.PASSWORD, 
     connectionLimit: "10"
 
   
