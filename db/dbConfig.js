@@ -8,12 +8,16 @@ const dbConnection = mysql2.createPool({
   //   password:"A123456789a", 
   //   connectionLimit: "10"
 
-  user:process.env.USER, 
-    database:process.env.DATABASE,
-    host:"localhost",
-    password:process.env.PASSWORD, 
-    connectionLimit: "10"
-
+  // user:process.env.USER, 
+  //   database:process.env.DATABASE,
+  //   host:"localhost",
+  //   password:process.env.PASSWORD, 
+  //   connectionLimit: "10"
+    host: "sql6.freesqldatabase.com",
+    database: "sql6691485",
+     user: "sql6691485",
+     password: "GXzlWAnxTg",
+    port: "3306"
   
 });
   // console.log(process.env.USER)
