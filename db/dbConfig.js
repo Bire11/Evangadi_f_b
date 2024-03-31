@@ -13,10 +13,10 @@ const dbConnection = mysql2.createPool({
   //   host:"localhost",
   //   password:process.env.PASSWORD, 
   //   connectionLimit: "10"
-    host: "sql6.freesqldatabase.com",
-    database: "sql6691485",
-     user: "sql6691485",
-     password: "GXzlWAnxTg",
+    host: "sql5.freesqldatabase.com",
+    database: "sql5695555",
+     user: "sql5695555",
+     password: "WgEuZjGKny",
     port: "3306"
   
 });

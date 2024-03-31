@@ -20,7 +20,7 @@ const dbConnection = require("./db/dbConfig");
 const authMiddleware = require("./middleware/authMiddleware");
 
 //user routes middleware file.file.
-const UserRoutes = require("./routes/userRoute");
+const UserRoutes = require("./routes/user.Routes");
 
 //do questions middleware
 const questionsRoutes = require("./routes/questionRoute");
